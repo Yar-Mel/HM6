@@ -15,7 +15,7 @@ path_files = []
 
 
 def get_extension(file: str) -> str:
-        match = re.search(r'\.\w{3,4}$', file)
+        match = re.search(r'\.\w{1,2}\w{1,2}$', file)
         if match:
             return match[0][1:]
         else:

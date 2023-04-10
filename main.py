@@ -62,7 +62,7 @@ def main(work_folder: Path) -> None:
     for folder in path_folders:
             handle_folder(folder)
 
-# main(Path('HM6/garbage'))
+# main(Path('garbage'))
 
 if __name__ == '__main__':
     main(Path(sys.argv[1]))
